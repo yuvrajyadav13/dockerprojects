@@ -8,6 +8,12 @@ app.get('/', (req, res) => res.json([
         class: 'x',
         age: '30',
         learning: 'nodejs'
+    },
+    {
+        name: 'alice',
+        class: 'x',
+        age: '31',
+        learning: 'nodejs'
     }
 ]))
 
