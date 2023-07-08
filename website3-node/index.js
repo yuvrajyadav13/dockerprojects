@@ -2,11 +2,13 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => res.json([{
-    name: 'bob',
-    class: 'x',
-    age: '30',
-    learning: 'nodejs'
-}]))
+app.get('/', (req, res) => res.json([
+    {
+        name: 'bob',
+        class: 'x',
+        age: '30',
+        learning: 'nodejs'
+    }
+]))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
