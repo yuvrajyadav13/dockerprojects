@@ -1,0 +1,11 @@
+services:
+  container1:
+    build: .
+    command: node index.js
+    ports:
+      - 3000:3000
+  
+  container2:
+    image: redis:alpline
+    ports:
+      - 6379
