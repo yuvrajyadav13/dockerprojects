@@ -6,6 +6,6 @@ services:
       - 3000:3000
   
   container2:
-    image: redis:alpline
+    image: redis:alpine
     ports:
       - 6379
